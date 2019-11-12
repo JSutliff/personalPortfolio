@@ -1,11 +1,13 @@
 import React from "react";
 import "./App.css";
-import Paper from "./components/Paper";
+import Toolbar from "./components/Toolbar";
+import ExpansionPannel from "./components/ExpansionPannel";
 
 function App() {
   return (
     <div className="App">
-      <Paper />
+      <Toolbar />
+      <ExpansionPannel />
     </div>
   );
 }
